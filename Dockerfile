@@ -3,4 +3,4 @@ LABEL name="vue-front"
 LABEL version="1.0"
 COPY ./dist /front
 COPY ./vue-front.conf /etc/nginx/conf.d
-EXPOSE 80
+EXPOSE 8081
